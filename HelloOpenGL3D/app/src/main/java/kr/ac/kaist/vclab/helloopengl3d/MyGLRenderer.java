@@ -29,8 +29,8 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     private Square mSquare;
 
     public float [] mViewRotationMatrix = new float[16];
+    public float [] mViewTranslationMatrix = new float[16];
 
-    private float [] mViewTranslationMatrix = new float[16];
     private float[] mTempMatrix = new float[16];
 
     private float[] mViewMatrix = new float[16];
